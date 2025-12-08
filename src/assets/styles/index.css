@@ -1,0 +1,14 @@
+/* src/assets/styles/index.css */
+@import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+/* Adjust for fixed header */
+body {
+  padding-top: 60px;
+  background-color: #f8f9fa;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Ensure sections use full width and padding */
+section {
+  padding: 4rem 0;
+}
