@@ -4,7 +4,8 @@ import axios from "axios";
 
 // IMPORTANT: Define the base URL for your running Strapi server.
 // Default for Strapi development is http://localhost:1337
-const STRAPI_BASE_URL = "http://localhost:1337/api";
+const STRAPI_BASE_URL =
+  "https://credible-amusement-9f7e99f0c1.strapiapp.com/api";
 
 const useFetch = (url) => {
   const [data, setData] = useState(null);

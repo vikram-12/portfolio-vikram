@@ -24,7 +24,7 @@ const About = () => {
   const { bio, profilePicture, occupation, experience, company, resumeLink } =
     aboutData || {};
   const imgUrl = profilePicture
-    ? `http://localhost:1337${profilePicture.url}`
+    ? `${profilePicture.url}`
     : "default-avatar.png";
 
   return (

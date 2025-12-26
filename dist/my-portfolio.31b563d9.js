@@ -25105,7 +25105,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./components/common/Header":"f3hCO","./components/common/Footer":"eealx","./components/pages/About":"1IWsC","./components/pages/Experience":"4SMIK","./components/pages/Education":"j8wE7","./components/pages/Skills":"1OB4l","./context/GlobalContext":"auKLy","./assets/styles/App.css":"8JYwI","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./components/pages/Project":"4Ynej"}],"f3hCO":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./components/common/Header":"f3hCO","./components/common/Footer":"eealx","./components/pages/About":"1IWsC","./components/pages/Experience":"4SMIK","./components/pages/Education":"j8wE7","./components/pages/Skills":"1OB4l","./context/GlobalContext":"auKLy","./assets/styles/App.css":"8JYwI","./components/pages/Project":"4Ynej","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"f3hCO":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$4b2f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$4b2f.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -27787,7 +27787,7 @@ const About = ()=>{
         columnNumber: 7
     }, undefined);
     const { bio, profilePicture, occupation, experience, company, resumeLink } = aboutData || {};
-    const imgUrl = profilePicture ? `http://localhost:1337${profilePicture.url}` : "default-avatar.png";
+    const imgUrl = profilePicture ? `${profilePicture.url}` : "default-avatar.png";
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "about",
         className: "container py-5",
@@ -27965,7 +27965,7 @@ var _axiosDefault = parcelHelpers.interopDefault(_axios);
 var _s = $RefreshSig$();
 // IMPORTANT: Define the base URL for your running Strapi server.
 // Default for Strapi development is http://localhost:1337
-const STRAPI_BASE_URL = "http://localhost:1337/api";
+const STRAPI_BASE_URL = "https://credible-amusement-9f7e99f0c1.strapiapp.com/api";
 const useFetch = (url)=>{
     _s();
     const [data, setData] = (0, _react.useState)(null);
@@ -34646,6 +34646,6 @@ $RefreshReg$(_c, "Project");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../../hooks/useFetch":"17eWY"}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequire82ef", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../../hooks/useFetch":"17eWY","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequire82ef", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=my-portfolio.31b563d9.js.map
